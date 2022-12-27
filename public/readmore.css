@@ -1,0 +1,66 @@
+ *{
+    box-sizing: border-box;
+}
+
+
+ 
+.main{
+    background-color:#191919 ;
+}
+.img{
+    position: absolute;
+    /* top: 10px;
+    left: 10px; */
+    top: 10%;
+    left: 2%;
+    
+}
+#pp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    
+    position: absolute;
+    top: 7%;
+    left: 55%;
+    color: white;
+
+}
+.img2{
+     position: absolute;
+    top: 110%;
+    right: 2%; 
+
+}
+#pp2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    
+     position: absolute;
+    /* top: 100px;
+    left: 750px; */
+    top: 110%;
+    right: 55%;
+    left: 1%;
+    color: white;
+
+
+}
+.img3{
+    position: absolute;
+    /* top: 10px;
+    left: 10px; */
+    top: 190%;
+    left: 2%;
+    
+}
+#pp3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    
+    position: absolute;
+    top: 190%;
+    left: 55%;
+    color: white;
+
+
+}

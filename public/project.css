@@ -1,0 +1,153 @@
+*{padding: 0; margin: 0; box-sizing: border-box;font-family: sans-serif;}
+
+
+
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://img2.sangam.com/assets/home/HomePage_Default.jpg);
+    background-size: cover;
+    position: relative;
+}
+.info{
+    color: white;
+    font-size: 15px;
+    padding: 20px 70px;
+    cursor: pointer;
+    
+}
+.info span{
+    margin: 0 10px ;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 2em;
+    font-family: normal;
+    letter-spacing: 2px;
+    
+}
+.logo i{
+    color: red;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: 0.90s;
+    
+    
+    
+   
+    
+   
+}
+.menu a:hover{
+    background: red;
+    border-radius: 50px;
+      
+}
+.htext{
+    color:white;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    max-width: 600px;
+    
+}
+ .htext h1{
+    font-size: 2em;
+    
+
+}
+.htext h2{
+    font-size: 4em;
+}
+.htext span{
+    color: #e84393;
+    
+} 
+.htext p{
+    font-size: 1.5em;
+    margin: 15px 0;
+    line-height: 2em;
+     
+
+}
+.htext a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+.htext a:hover{
+    background-color: #e84393;
+}
+
+.box{
+    background: white;
+    width: 380px;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    padding: 30px;
+    margin: 30px 15px;
+}
+form{
+    width: 250px;
+
+}
+form input[type="text"]{
+    width: 330px;
+    padding: 20px 10px;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    background: rgba(0,0,0,0.2);
+}
+form input[type="submit"]{
+    width: 330px;
+    padding: 20px 10px;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    background-color: #e84393;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 15px;
+    
+
+}
+form input[type="submit"]:hover{
+    background: transparent;
+    border: 1px solid gray;
+    color: black;
+}
+.box a{
+    color: #e84393;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
