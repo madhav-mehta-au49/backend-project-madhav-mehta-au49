@@ -15,7 +15,7 @@ const port = process.env.PORT || 5000;
 const static_path = path.join(__dirname, "./public")
 console.log( path.join(__dirname, "./public"));
 app.use(express.static(static_path));
-const static_path2 = path.join(__dirname, "../views")
+const static_path2 = path.join(__dirname, "./views")
 app.use(express.static(static_path2))
 
 app.set('view engine', 'hbs');
